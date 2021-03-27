@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+.circle {
+  position: absolute;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.blink_1 {
+  animation-name: blink10;
+}
+
+.blink_2 {
+  animation-name: blink20;
+}
+
+.blink_3 {
+  animation-name: blink30;
+}
+
+.blink_4 {
+  animation-name: blink40;
+}
+
+.blink_5 {
+  animation-name: blink50;
+}
+
+@keyframes blink10 {
+  0%, 100% {
+    background-color: #FFFFFF;
+  }
+  20% {
+    background-color: transparent;
+  }
+}
+
+@keyframes blink20 {
+  0%, 100% {
+    background-color: transparent;
+  }
+  40% {
+    background-color: #FFFFFF;
+  }
+}
+
+@keyframes blink50 {
+  0%, 100% {
+    background-color: #FFFFFF;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
+
+@keyframes blink30 {
+  0%, 100% {
+    background-color: #FFFFFF;
+  }
+  60% {
+    background-color: transparent;
+  }
+}
+
+@keyframes blink40 {
+  0%, 100% {
+    background-color: transparent;
+  }
+  80% {
+    background-color: #FFFFFF;
+  }
+}

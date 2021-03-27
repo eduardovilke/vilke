@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(180deg, #000000 0%, rgba(40, 42, 54, 0) 100%), #44475A;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  font-family: "VT323";
+}
